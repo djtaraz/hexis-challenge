@@ -74,7 +74,7 @@ const App = () => {
                 if (a.company.name < b.company.name) {
                   return 1;
                 }
-                if (a.company.name < b.company.name) {
+                if (a.company.name > b.company.name) {
                   return -1;
                 }
                 return 0;
